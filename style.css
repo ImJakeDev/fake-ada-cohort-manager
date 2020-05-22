@@ -1,0 +1,30 @@
+table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+td {
+    text-align: center;
+    border-bottom: 1px dashed black;
+}
+
+tr:last-child td {
+    border-bottom: 0px;
+}
